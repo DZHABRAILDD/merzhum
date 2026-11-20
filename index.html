@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FFFCF5"><title>Каталог | Merzhum</title>
+<meta name="description" content="Торты, тарты и авторские десерты Merzhum в Грозном. Выберите любимое и уточните заказ в WhatsApp.">
+<link rel="stylesheet" href="vendor/bootstrap-icons.css"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header">
+ <div class="header-row">
+  <a class="brand" href="./" aria-label="Merzhum — главная">Merzhum</a>
+  <label class="search"><i class="bi bi-search" aria-hidden="true"></i><input id="search" type="search" placeholder="Найти торт, пирожное..." aria-label="Поиск по каталогу"></label>
+  <div class="header-actions">
+   <span class="hours"><i class="bi bi-clock" aria-hidden="true"></i> Приём заказов с 9:00 до 20:00</span>
+   <a class="phone" href="tel:+79281233434"><i class="bi bi-telephone" aria-hidden="true"></i> +7 (928) 123-34-34</a>
+   <button id="menu-toggle" class="icon mobile-control" aria-label="Открыть меню" aria-controls="category-panel" aria-expanded="false"><i class="bi bi-list" aria-hidden="true"></i></button>
+   <button id="mobile-cart" class="icon mobile-control" aria-label="Открыть корзину" aria-controls="cart" aria-expanded="false"><i class="bi bi-bag" aria-hidden="true"></i><span id="mobile-count" class="cart-badge">0</span></button>
+   <button id="theme" class="icon" aria-label="Переключить тему" aria-pressed="false"><i class="bi bi-sun-fill" aria-hidden="true"></i></button>
+  </div>
+ </div><div class="mobile-search-slot"></div>
+</header>
+<div id="drawer-backdrop" class="drawer-backdrop" aria-hidden="true"></div>
+<aside class="categories" id="category-panel" aria-label="Меню каталога">
+ <div class="aside-title"><button class="catalog-home" data-category="Все"><i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Каталог</button><button class="icon drawer-close" data-close-drawer aria-label="Закрыть меню"><i class="bi bi-x-lg" aria-hidden="true"></i></button></div>
+ <nav id="categories" aria-label="Категории"></nav>
+</aside>
+<main>
+ <section class="contact-strip" aria-label="Кондитерская Merzhum">
+  <div class="location-card">
+   <div><i class="bi bi-geo-alt-fill" aria-hidden="true"></i><strong>Муслима Гайрбекова, 68к2</strong></div>
+   <div><i class="bi bi-clock" aria-hidden="true"></i><span>Каждый день · 9:00 — 20:00</span></div>
+   <a href="tel:+79281233434"><i class="bi bi-telephone" aria-hidden="true"></i>+7 (928) 123-34-34</a>
+  </div>
+ </section>
+ <div class="catalog-heading"><h1 id="title">Каталог</h1><select id="sort" aria-label="Сортировка"><option value="default">По умолчанию</option><option value="name">По названию</option><option value="asc">Сначала дешевле</option><option value="desc">Сначала дороже</option><option value="new">Сначала новые</option></select></div>
+ <div id="products"></div>
+ <footer><span class="footer-brand">Merzhum</span><nav><button data-info="about">О нас</button><button data-info="delivery">Доставка</button><button data-info="contacts">Контакты</button><a href="https://www.instagram.com/merzhum/" target="_blank" rel="noopener">Instagram</a></nav><small>© 2026 Merzhum</small></footer>
+</main>
+<aside class="cart" id="cart" aria-label="Корзина">
+ <div class="aside-title"><span><i class="bi bi-bag mobile-control" aria-hidden="true"></i> Корзина</span><span id="count" class="cart-badge">0</span><button class="icon drawer-close" data-close-drawer aria-label="Закрыть корзину"><i class="bi bi-x-lg" aria-hidden="true"></i></button></div>
+ <div id="cart-content"></div>
+</aside>
+<dialog id="modal" aria-label="Информация о товаре или заказе"><button class="modal-close icon" aria-label="Закрыть окно"><i class="bi bi-x-lg" aria-hidden="true"></i></button><div id="modal-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body></html>

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Ягодный ирис",
+    "price": 450,
+    "image": "images/product-01.webp",
+    "description": "Десерт с клубникой, малиной и голубикой."
+  },
+  {
+    "id": 3,
+    "name": "Киевский торт",
+    "price": 3800,
+    "image": "images/product-03.webp",
+    "description": "Меренга с грецким орехом и крем из сливочного масла с варёной сгущёнкой."
+  },
+  {
+    "id": 4,
+    "name": "Подарочный бокс",
+    "price": 3500,
+    "image": "images/product-04.webp",
+    "description": "Ассорти десертов в подарочной коробке."
+  },
+  {
+    "id": 5,
+    "name": "Французский тирамису",
+    "price": 450,
+    "image": "images/product-05.webp",
+    "description": "Французский тирамису в порционном формате."
+  },
+  {
+    "id": 6,
+    "name": "Карамельный тарт",
+    "price": 450,
+    "image": "images/product-06.webp",
+    "description": "Миндально-шоколадное песочное тесто, солёная карамель с арахисом и мусс в шоколадной оболочке."
+  },
+  {
+    "id": 7,
+    "name": "Подарочный бокс",
+    "price": 3500,
+    "image": "images/product-07.webp",
+    "description": "Ассорти десертов с шоколадным оформлением."
+  },
+  {
+    "id": 8,
+    "name": "Мишка",
+    "price": 800,
+    "image": "images/product-08.webp",
+    "description": "Фигурный десерт в форме мишки."
+  },
+  {
+    "id": 9,
+    "name": "Корпусные десерты",
+    "price": 450,
+    "image": "images/product-09.webp",
+    "description": "Корпусной десерт. Вкус и оформление уточните при заказе."
+  },
+  {
+    "id": 10,
+    "name": "Ягодный тарт",
+    "price": 550,
+    "image": "images/product-10.webp",
+    "description": "Тарт со свежими ягодами."
+  },
+  {
+    "id": 11,
+    "name": "Бокс мишек",
+    "price": 3000,
+    "image": "images/product-11.webp",
+    "description": "Подарочный набор фигурных мишек."
+  },
+  {
+    "id": 12,
+    "name": "Кофейное зерно",
+    "price": 450,
+    "image": "images/product-12.webp",
+    "description": "Десерт в форме кофейного зерна."
+  },
+  {
+    "id": 13,
+    "name": "Бразильский десерт",
+    "price": 2000,
+    "image": "images/product-13.webp",
+    "description": "Шоколадный бисквит и два крема на основе бельгийского шоколада."
+  },
+  {
+    "id": 14,
+    "name": "Подарочный бокс",
+    "price": 3500,
+    "image": "images/product-14.webp",
+    "description": "Ассорти тартов в подарочной коробке."
+  },
+  {
+    "id": 15,
+    "name": "ТОРТ Ягодный ирис",
+    "price": 4500,
+    "image": "images/product-15.webp",
+    "description": "Ягодный ирис в формате целого торта."
+  },
+  {
+    "id": 16,
+    "name": "Ванильный тарт",
+    "price": 450,
+    "image": "images/product-16.webp",
+    "description": "Ванильный тарт в порционном формате."
+  },
+  {
+    "id": 17,
+    "name": "Фисташковый тарт",
+    "price": 450,
+    "image": "images/product-17.webp",
+    "description": "Порционный фисташковый тарт."
+  },
+  {
+    "id": 18,
+    "name": "Малиновый тарт",
+    "price": 2500,
+    "image": "images/product-18.webp",
+    "description": "Малиновый тарт для общего стола."
+  },
+  {
+    "id": 19,
+    "name": "Тропики",
+    "price": 3000,
+    "image": "images/product-19.webp",
+    "description": "Торт «Тропики». Состав уточните при заказе."
+  },
+  {
+    "id": 20,
+    "name": "Корпусные десерты",
+    "price": 3500,
+    "image": "images/product-20.webp",
+    "description": "Набор авторских корпусных десертов."
+  },
+  {
+    "id": 21,
+    "name": "Подарочный бокс",
+    "price": 3500,
+    "image": "images/product-21.webp",
+    "description": "Подарочное ассорти десертов в форме фруктов."
+  },
+  {
+    "id": 22,
+    "name": "ТОРТ французский тирамису",
+    "price": 4500,
+    "image": "images/product-22.webp",
+    "description": "Французский тирамису в формате целого торта."
+  },
+  {
+    "id": 23,
+    "name": "Шоколадный тарт брауни",
+    "price": 2500,
+    "image": "images/product-23.webp",
+    "description": "Шоколадное миндальное тесто, запечённый брауни и банан в карамели. Белый и молочный ганаш."
+  },
+  {
+    "id": 24,
+    "name": "Медовик",
+    "price": 2500,
+    "image": "images/product-24.webp",
+    "description": "Медовые коржи и заварной крем «Пломбир»."
+  },
+  {
+    "id": 25,
+    "name": "Торт Милка",
+    "price": 3500,
+    "image": "images/product-25.webp",
+    "description": "Шоколадные коржи и крем «Пломбир»."
+  },
+  {
+    "id": 26,
+    "name": "Наполеон",
+    "price": 3500,
+    "image": "images/product-26.webp",
+    "description": "Слоёный торт «Наполеон». Состав уточните при заказе."
+  },
+  {
+    "id": 27,
+    "name": "ПП Манго",
+    "price": 350,
+    "image": "images/product-27.webp",
+    "description": "Манговое пюре, йогурт, семена чиа и лёгкая кокосовая основа."
+  },
+  {
+    "id": 28,
+    "name": "Три шоколада",
+    "price": 4500,
+    "image": "images/product-28.webp",
+    "description": "Шоколадный бисквит, муссы из тёмного, молочного и белого шоколада, какао."
+  },
+  {
+    "id": 29,
+    "name": "Шоколадный круассан с клубникой",
+    "price": 350,
+    "image": "images/product-29.webp",
+    "description": "Слоёное тесто, шоколадный крем, свежая клубника и сахарная пудра."
+  },
+  {
+    "id": 30,
+    "name": "Круассан без начинки",
+    "price": 180,
+    "image": "images/product-30.webp",
+    "description": "Слоёное тесто на сливочном масле."
+  },
+  {
+    "id": 31,
+    "name": "Сэндвич-брауни с вишней",
+    "price": 350,
+    "image": "images/product-31.webp",
+    "description": "Шоколадный брауни, крем-чиз и вишнёвое конфи."
+  },
+  {
+    "id": 32,
+    "name": "Сникерс",
+    "price": 350,
+    "image": "images/product-32.webp",
+    "description": "Шоколадный бисквит, карамельный крем, арахис и молочный шоколад."
+  },
+  {
+    "id": 33,
+    "name": "Баунти",
+    "price": 350,
+    "image": "images/product-33.webp",
+    "description": "Кокосовая начинка, шоколадный бисквит и глазурь из молочного шоколада."
+  },
+  {
+    "id": 34,
+    "name": "Сэндвич-брауни с малиной",
+    "price": 350,
+    "image": "images/product-34.webp",
+    "description": "Шоколадный брауни, крем-чиз, малиновое конфи и молочный шоколад."
+  },
+  {
+    "id": 35,
+    "name": "Клубника в шоколаде",
+    "price": 1200,
+    "image": "images/product-35.webp",
+    "description": "Свежая клубника в бельгийском шоколаде."
+  },
+  {
+    "id": 36,
+    "name": "Японский рулет",
+    "price": 1600,
+    "image": "images/product-36.webp",
+    "description": "Воздушный японский бисквит и сливочный крем."
+  },
+  {
+    "id": 37,
+    "name": "Какао бобы",
+    "price": 450,
+    "image": "images/product-37.webp",
+    "description": "Шоколадная оболочка с ореховым пралине в форме какао-боба."
+  },
+  {
+    "id": 38,
+    "name": "Корпусная малина",
+    "price": 450,
+    "image": "images/product-38.webp",
+    "description": "Шоколадный мусс, малиновое конфи и бисквит."
+  },
+  {
+    "id": 39,
+    "name": "Корпусное манго",
+    "price": 450,
+    "image": "images/product-39.webp",
+    "description": "Мангово-маракуйевое конфи, шоколадный мусс и тонкая глазурь."
+  },
+  {
+    "id": 40,
+    "name": "Попкорн",
+    "price": 450,
+    "image": "images/product-40.webp",
+    "description": "Карамельный мусс с попкорном и хрустящей карамельной крошкой."
+  },
+  {
+    "id": 41,
+    "name": "Корпусная фисташка",
+    "price": 450,
+    "image": "images/product-41.webp",
+    "description": "Фисташковый мусс, фисташковое пралине и шоколадная глазурь."
+  }
+]
