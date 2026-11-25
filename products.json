@@ -1,282 +1,442 @@
 [
   {
-    "id": 1,
-    "name": "Ягодный ирис",
-    "price": 450,
-    "image": "images/product-01.webp",
-    "description": "Десерт с клубникой, малиной и голубикой."
+    "id": 101,
+    "name": "Миндальное молоко",
+    "category": "Торты",
+    "price": 10750,
+    "description": "Миндальный дакуаз, крем на миндальном молоке и вишнёвое конфи под свежими ягодами. 1,3 кг.",
+    "image": "images/menu/dessert-101.webp",
+    "image4k": "images/4k/dessert-101.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/mindalnoe-moloko/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/24.jpg"
   },
   {
-    "id": 3,
-    "name": "Киевский торт",
-    "price": 3800,
-    "image": "images/product-03.webp",
-    "description": "Меренга с грецким орехом и крем из сливочного масла с варёной сгущёнкой."
+    "id": 102,
+    "name": "Прага",
+    "category": "Торты",
+    "price": 10650,
+    "description": "На шоколадных коржах — мусс из тёмного шоколада, яблочный ликёр и конфитюр из айвы и яблок. 1,3 кг.",
+    "image": "images/menu/dessert-102.webp",
+    "image4k": "images/4k/dessert-102.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/tortec-prazhskoj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/praga-1.jpg"
   },
   {
-    "id": 4,
-    "name": "Подарочный бокс",
-    "price": 3500,
-    "image": "images/product-04.webp",
-    "description": "Ассорти десертов в подарочной коробке."
+    "id": 103,
+    "name": "Медовик с шоколадной короной",
+    "category": "Торты",
+    "price": 21500,
+    "description": "Гречишный мёд, сметанный крем и сгущённое молоко. Торт весит 2 кг, корона из тёмного шоколада — ещё 450 г.",
+    "image": "images/menu/dessert-103.webp",
+    "image4k": "images/4k/dessert-103.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/medovichek-2-kg/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/025a7085.jpg"
   },
   {
-    "id": 5,
-    "name": "Французский тирамису",
-    "price": 450,
-    "image": "images/product-05.webp",
-    "description": "Французский тирамису в порционном формате."
+    "id": 104,
+    "name": "Киевский",
+    "category": "Торты",
+    "price": 11200,
+    "description": "Хрустящие ореховые коржи из безе прослоены шоколадно-масляным кремом с ванилью. 950 г.",
+    "image": "images/menu/dessert-104.webp",
+    "image4k": "images/4k/dessert-104.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/tort-kievskij/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2021/12/15.jpg"
   },
   {
-    "id": 6,
-    "name": "Карамельный тарт",
-    "price": 450,
-    "image": "images/product-06.webp",
-    "description": "Миндально-шоколадное песочное тесто, солёная карамель с арахисом и мусс в шоколадной оболочке."
+    "id": 105,
+    "name": "Яблочный блюз",
+    "category": "Торты",
+    "price": 4650,
+    "description": "Под миндальной песочной решёткой — мелко нарезанные яблоки с корицей. 880 г.",
+    "image": "images/menu/dessert-105.webp",
+    "image4k": "images/4k/dessert-105.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/yablochnyj-blyuz/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/yablochnyj-blyuz.jpg"
   },
   {
-    "id": 7,
-    "name": "Подарочный бокс",
-    "price": 3500,
-    "image": "images/product-07.webp",
-    "description": "Ассорти десертов с шоколадным оформлением."
+    "id": 106,
+    "name": "Ленинградский",
+    "category": "Торты",
+    "price": 8900,
+    "description": "Песочные коржи с коньячным сиропом и шоколадным кремом покрыты помадкой. 800 г.",
+    "image": "images/menu/dessert-106.webp",
+    "image4k": "images/4k/dessert-106.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/tort-leningradskij/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/10/unnamed-2.jpg"
   },
   {
-    "id": 8,
-    "name": "Мишка",
-    "price": 800,
-    "image": "images/product-08.webp",
-    "description": "Фигурный десерт в форме мишки."
+    "id": 107,
+    "name": "Пряневик",
+    "category": "Торты",
+    "price": 5800,
+    "description": "Медовые коржи с корицей и гвоздикой чередуются со сметанно-ванильным кремом и малиновым конфи. 780 г.",
+    "image": "images/menu/dessert-107.webp",
+    "image4k": "images/4k/dessert-107.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/pryanevik/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/07/v-banke.jpg"
   },
   {
-    "id": 9,
-    "name": "Корпусные десерты",
-    "price": 450,
-    "image": "images/product-09.webp",
-    "description": "Корпусной десерт. Вкус и оформление уточните при заказе."
+    "id": 108,
+    "name": "Ванильный татен",
+    "category": "Торты",
+    "price": 3400,
+    "description": "Яблоки с корицей, слоёное тесто и ванильный крем патисьер. 350 г.",
+    "image": "images/menu/dessert-108.webp",
+    "image4k": "images/4k/dessert-108.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/taten-vanilnyj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/taten-vanilnyj.jpg"
   },
   {
-    "id": 10,
-    "name": "Ягодный тарт",
-    "price": 550,
-    "image": "images/product-10.webp",
-    "description": "Тарт со свежими ягодами."
+    "id": 109,
+    "name": "Птичка в жестяной банке",
+    "category": "Торты",
+    "price": 8700,
+    "description": "Молочное суфле и тонкий слой ванильного бисквита. Торт подают в круглой жестяной банке. 570 г.",
+    "image": "images/menu/dessert-109.webp",
+    "image4k": "images/4k/dessert-109.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/tort-ptichka/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2024/11/img_9783.jpg"
   },
   {
-    "id": 11,
-    "name": "Бокс мишек",
-    "price": 3000,
-    "image": "images/product-11.webp",
-    "description": "Подарочный набор фигурных мишек."
+    "id": 110,
+    "name": "Шоколад и вишня",
+    "category": "Пирожные",
+    "price": 1100,
+    "description": "В песочной тарталетке — шоколадный крем, тёмный ганаш и вишня в роме с хрустящим пралине. 100 г.",
+    "image": "images/menu/dessert-110.webp",
+    "image4k": "images/4k/dessert-110.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/desert-shokoladno-vishnevyj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/1.jpg"
   },
   {
-    "id": 12,
-    "name": "Кофейное зерно",
-    "price": 450,
-    "image": "images/product-12.webp",
-    "description": "Десерт в форме кофейного зерна."
+    "id": 111,
+    "name": "Земляничная матча",
+    "category": "Пирожные",
+    "price": 1350,
+    "description": "Бисквит матча с земляничной пропиткой, миндальная хрустина и крем-пломбир с ягодным конфи. 200 г.",
+    "image": "images/menu/dessert-111.webp",
+    "image4k": "images/4k/dessert-111.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/desert-zemlyanichnaya-matcha/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/3.jpg"
   },
   {
-    "id": 13,
-    "name": "Бразильский десерт",
-    "price": 2000,
-    "image": "images/product-13.webp",
-    "description": "Шоколадный бисквит и два крема на основе бельгийского шоколада."
+    "id": 112,
+    "name": "Бузина и земляника",
+    "category": "Пирожные",
+    "price": 1350,
+    "description": "Лимонный бисквит с фисташковым слоем, кремом-пломбиром и бузиной скрывает клубнично-земляничную начинку. 100 г.",
+    "image": "images/menu/dessert-112.webp",
+    "image4k": "images/4k/dessert-112.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/desert-s-buzinoj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/04/900h900_3.jpg"
   },
   {
-    "id": 14,
-    "name": "Подарочный бокс",
-    "price": 3500,
-    "image": "images/product-14.webp",
-    "description": "Ассорти тартов в подарочной коробке."
+    "id": 113,
+    "name": "Эстерхази",
+    "category": "Пирожные",
+    "price": 1170,
+    "description": "Безе и сливочный крем с тремя орехами — грецким, миндалём и фундуком. 85 г.",
+    "image": "images/menu/dessert-113.webp",
+    "image4k": "images/4k/dessert-113.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/esterhazi/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/07/3.jpg"
   },
   {
-    "id": 15,
-    "name": "ТОРТ Ягодный ирис",
-    "price": 4500,
-    "image": "images/product-15.webp",
-    "description": "Ягодный ирис в формате целого торта."
+    "id": 114,
+    "name": "Мильфей Бурбон",
+    "category": "Пирожные",
+    "price": 1350,
+    "description": "Карамелизированные слои теста, сливочный крем с ванилью Бурбон и хрустящий нугатин из миндаля. 125 г.",
+    "image": "images/menu/dessert-114.webp",
+    "image4k": "images/4k/dessert-114.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/milfej/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/milfej.jpg"
   },
   {
-    "id": 16,
-    "name": "Ванильный тарт",
-    "price": 450,
-    "image": "images/product-16.webp",
-    "description": "Ванильный тарт в порционном формате."
+    "id": 115,
+    "name": "Птичка",
+    "category": "Пирожные",
+    "price": 1050,
+    "description": "Молочное суфле на ванильном бисквите под тонкой глазурью из тёмного шоколада. 60 г.",
+    "image": "images/menu/dessert-115.webp",
+    "image4k": "images/4k/dessert-115.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/nezhnoe-sufle/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ptiche-moloko-1.jpg"
   },
   {
-    "id": 17,
-    "name": "Фисташковый тарт",
-    "price": 450,
-    "image": "images/product-17.webp",
-    "description": "Порционный фисташковый тарт."
+    "id": 116,
+    "name": "Киевское безе",
+    "category": "Пирожные",
+    "price": 1410,
+    "description": "Ореховое безе, масляный крем с шоколадом и ванильная нота. 110 г.",
+    "image": "images/menu/dessert-116.webp",
+    "image4k": "images/4k/dessert-116.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/kievskij/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/03/17.jpg"
   },
   {
-    "id": 18,
-    "name": "Малиновый тарт",
-    "price": 2500,
-    "image": "images/product-18.webp",
-    "description": "Малиновый тарт для общего стола."
+    "id": 117,
+    "name": "Гречишный медовик",
+    "category": "Пирожные",
+    "price": 1390,
+    "description": "Медовые коржи со сметаной и варёным сгущённым молоком. 90 г.",
+    "image": "images/menu/dessert-117.webp",
+    "image4k": "images/4k/dessert-117.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/medovik/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/900h900_5.jpg"
   },
   {
-    "id": 19,
-    "name": "Тропики",
-    "price": 3000,
-    "image": "images/product-19.webp",
-    "description": "Торт «Тропики». Состав уточните при заказе."
+    "id": 118,
+    "name": "Пражское пирожное",
+    "category": "Пирожные",
+    "price": 1150,
+    "description": "Шоколадный бисквит с яблочным ликёром, айвово-яблочный конфитюр и тёмный шоколадный мусс. 130 г.",
+    "image": "images/menu/dessert-118.webp",
+    "image4k": "images/4k/dessert-118.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/praga/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/praga.jpg"
   },
   {
-    "id": 20,
-    "name": "Корпусные десерты",
-    "price": 3500,
-    "image": "images/product-20.webp",
-    "description": "Набор авторских корпусных десертов."
+    "id": 119,
+    "name": "Ленинградское пирожное",
+    "category": "Пирожные",
+    "price": 890,
+    "description": "Песочные слои пропитаны коньячным сиропом, между ними шоколадный крем, сверху помадка. 95 г.",
+    "image": "images/menu/dessert-119.webp",
+    "image4k": "images/4k/dessert-119.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/deserty/tort-leningradskij-2/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/02/img_5973_afterlight-1.jpg"
   },
   {
-    "id": 21,
-    "name": "Подарочный бокс",
-    "price": 3500,
-    "image": "images/product-21.webp",
-    "description": "Подарочное ассорти десертов в форме фруктов."
+    "id": 120,
+    "name": "Эклер с ванилью Бурбон",
+    "category": "Эклеры",
+    "price": 750,
+    "description": "В заварной оболочке — воздушный мусс патисьер и ванильный крем. 80 г.",
+    "image": "images/menu/dessert-120.webp",
+    "image4k": "images/4k/dessert-120.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/eklery/ekler-vanil/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ekler-vanil.jpg"
   },
   {
-    "id": 22,
-    "name": "ТОРТ французский тирамису",
-    "price": 4500,
-    "image": "images/product-22.webp",
-    "description": "Французский тирамису в формате целого торта."
+    "id": 121,
+    "name": "Эклер с солёной карамелью",
+    "category": "Эклеры",
+    "price": 750,
+    "description": "Заварное тесто с начинкой из кремового мусса и солёной карамели. 80 г.",
+    "image": "images/menu/dessert-121.webp",
+    "image4k": "images/4k/dessert-121.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/eklery/ekler-karamelnyj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ekler-karamel.jpg"
   },
   {
-    "id": 23,
-    "name": "Шоколадный тарт брауни",
-    "price": 2500,
-    "image": "images/product-23.webp",
-    "description": "Шоколадное миндальное тесто, запечённый брауни и банан в карамели. Белый и молочный ганаш."
+    "id": 122,
+    "name": "Эклер с заварным кремом",
+    "category": "Эклеры",
+    "price": 570,
+    "description": "Внутри золотистого заварного теста — сливочный заварной крем. 88 г.",
+    "image": "images/menu/dessert-122.webp",
+    "image4k": "images/4k/dessert-122.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/eklery/ekler-s-zavarnym-kremom/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/2.jpg"
   },
   {
-    "id": 24,
-    "name": "Медовик",
-    "price": 2500,
-    "image": "images/product-24.webp",
-    "description": "Медовые коржи и заварной крем «Пломбир»."
-  },
-  {
-    "id": 25,
-    "name": "Торт Милка",
-    "price": 3500,
-    "image": "images/product-25.webp",
-    "description": "Шоколадные коржи и крем «Пломбир»."
-  },
-  {
-    "id": 26,
-    "name": "Наполеон",
-    "price": 3500,
-    "image": "images/product-26.webp",
-    "description": "Слоёный торт «Наполеон». Состав уточните при заказе."
-  },
-  {
-    "id": 27,
-    "name": "ПП Манго",
+    "id": 123,
+    "name": "Вишня и фисташка",
+    "category": "Макарони",
     "price": 350,
-    "image": "images/product-27.webp",
-    "description": "Манговое пюре, йогурт, семена чиа и лёгкая кокосовая основа."
+    "description": "Две миндальные половинки с фисташковой пастой и вишней в креме. 25 г.",
+    "image": "images/menu/dessert-123.webp",
+    "image4k": "images/4k/dessert-123.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/vishnya-fistashka-2/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/malina-fistashka.jpg"
   },
   {
-    "id": 28,
-    "name": "Три шоколада",
-    "price": 4500,
-    "image": "images/product-28.webp",
-    "description": "Шоколадный бисквит, муссы из тёмного, молочного и белого шоколада, какао."
-  },
-  {
-    "id": 29,
-    "name": "Шоколадный круассан с клубникой",
+    "id": 124,
+    "name": "Лимон и карамель",
+    "category": "Макарони",
     "price": 350,
-    "image": "images/product-29.webp",
-    "description": "Слоёное тесто, шоколадный крем, свежая клубника и сахарная пудра."
+    "description": "Миндальное пирожное с начинкой из карамельного крема и лимона. 27 г.",
+    "image": "images/menu/dessert-124.webp",
+    "image4k": "images/4k/dessert-124.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/limon-karamel/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/limon-karamel.jpg"
   },
   {
-    "id": 30,
-    "name": "Круассан без начинки",
-    "price": 180,
-    "image": "images/product-30.webp",
-    "description": "Слоёное тесто на сливочном масле."
-  },
-  {
-    "id": 31,
-    "name": "Сэндвич-брауни с вишней",
+    "id": 125,
+    "name": "Зелёный чай",
+    "category": "Макарони",
     "price": 350,
-    "image": "images/product-31.webp",
-    "description": "Шоколадный брауни, крем-чиз и вишнёвое конфи."
+    "description": "Миндальная меренга и шоколадная начинка с зелёным чаем. 28 г.",
+    "image": "images/menu/dessert-125.webp",
+    "image4k": "images/4k/dessert-125.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/makaroni-zelenyj-chaj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/10/zelenyj-chaj.jpg"
   },
   {
-    "id": 32,
-    "name": "Сникерс",
+    "id": 126,
+    "name": "Ваниль и мак",
+    "category": "Макарони",
     "price": 350,
-    "image": "images/product-32.webp",
-    "description": "Шоколадный бисквит, карамельный крем, арахис и молочный шоколад."
+    "description": "Между миндальными половинками — ванильный крем с маковыми зёрнами. 28 г.",
+    "image": "images/menu/dessert-126.webp",
+    "image4k": "images/4k/dessert-126.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/makaroni-mak/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/10/mak.jpg"
   },
   {
-    "id": 33,
-    "name": "Баунти",
+    "id": 127,
+    "name": "Чёрная смородина",
+    "category": "Макарони",
     "price": 350,
-    "image": "images/product-33.webp",
-    "description": "Кокосовая начинка, шоколадный бисквит и глазурь из молочного шоколада."
+    "description": "Крем с чёрной смородиной между двумя миндальными половинками. 27 г.",
+    "image": "images/menu/dessert-127.webp",
+    "image4k": "images/4k/dessert-127.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/makaroni-chyornaya-smorodina/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2021/12/raspberry-black.jpg"
   },
   {
-    "id": 34,
-    "name": "Сэндвич-брауни с малиной",
+    "id": 128,
+    "name": "Малиновый морс",
+    "category": "Макарони",
     "price": 350,
-    "image": "images/product-34.webp",
-    "description": "Шоколадный брауни, крем-чиз, малиновое конфи и молочный шоколад."
+    "description": "Клюква и малина придают начинке миндального пирожного кислинку. 28 г.",
+    "image": "images/menu/dessert-128.webp",
+    "image4k": "images/4k/dessert-128.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/malinovyj-mors/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/mors.jpg"
   },
   {
-    "id": 35,
-    "name": "Клубника в шоколаде",
-    "price": 1200,
-    "image": "images/product-35.webp",
-    "description": "Свежая клубника в бельгийском шоколаде."
+    "id": 129,
+    "name": "Медовик и сгущёнка",
+    "category": "Макарони",
+    "price": 350,
+    "description": "Миндальное пирожное с медовым кремом на варёном сгущённом молоке. 30 г.",
+    "image": "images/menu/dessert-129.webp",
+    "image4k": "images/4k/dessert-129.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/medovik-sgushhenka/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/medovik-sgushhenka.jpg"
   },
   {
-    "id": 36,
-    "name": "Японский рулет",
+    "id": 130,
+    "name": "Лимонный пирог",
+    "category": "Выпечка",
+    "price": 4600,
+    "description": "Лимонный конфитюр со свежей цедрой на сливочном песочном тесте. 610 г.",
+    "image": "images/menu/dessert-130.webp",
+    "image4k": "images/4k/dessert-130.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/limonnyj-pirog/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/07/a40.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Вишнёвый пирог",
+    "category": "Выпечка",
+    "price": 8800,
+    "description": "Песочная основа с миндальной пастой, вишней конфи и тонким слоем желе. 1,65 кг.",
+    "image": "images/menu/dessert-131.webp",
+    "image4k": "images/4k/dessert-131.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/vishnevyj-pirog/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/09/a41i6993_ret-1.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Круассан с ванилью",
+    "category": "Выпечка",
+    "price": 650,
+    "description": "Сливочное слоёное тесто с начинкой из ванильного крема. 65 г.",
+    "image": "images/menu/dessert-132.webp",
+    "image4k": "images/4k/dessert-132.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/kruassan-vanilnoj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/vanil.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Миндальный круассан",
+    "category": "Выпечка",
+    "price": 650,
+    "description": "Под хрустящей корочкой — слоёный мякиш и миндальный крем. 55 г.",
+    "image": "images/menu/dessert-133.webp",
+    "image4k": "images/4k/dessert-133.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/kruassan-s-mindalem/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/mindal.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Шоколадный круассан",
+    "category": "Выпечка",
+    "price": 650,
+    "description": "Румяное слоёное тесто на сливочном масле с шоколадной начинкой. 70 г.",
+    "image": "images/menu/dessert-134.webp",
+    "image4k": "images/4k/dessert-134.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/kruassan-shokolad/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2024/01/pushkincafe-19.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Пряник со сгущёнкой",
+    "category": "Выпечка",
     "price": 1600,
-    "image": "images/product-36.webp",
-    "description": "Воздушный японский бисквит и сливочный крем."
+    "description": "Пряник по старинному рецепту с начинкой из варёного сгущённого молока. 315 г.",
+    "image": "images/menu/dessert-135.webp",
+    "image4k": "images/4k/dessert-135.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/pryanik-so-sgushhenkoj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/pryanik.jpg"
   },
   {
-    "id": 37,
-    "name": "Какао бобы",
-    "price": 450,
-    "image": "images/product-37.webp",
-    "description": "Шоколадная оболочка с ореховым пралине в форме какао-боба."
+    "id": 136,
+    "name": "Эмеральд",
+    "category": "Мария-Антуанетта",
+    "price": 1550,
+    "description": "Миндально-кокосовый бисквит, малиновый мусс и фисташки в карамели. Украшение из тёмного шоколада. 120 г.",
+    "image": "images/menu/dessert-136.webp",
+    "image4k": "images/4k/dessert-136.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/mariya-antuanetta/emerald/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/09/emerald.jpg"
   },
   {
-    "id": 38,
-    "name": "Корпусная малина",
-    "price": 450,
-    "image": "images/product-38.webp",
-    "description": "Шоколадный мусс, малиновое конфи и бисквит."
+    "id": 137,
+    "name": "Сердце",
+    "category": "Мария-Антуанетта",
+    "price": 1080,
+    "description": "Лимонный бисквит, маскарпоне, ягодная начинка и чайная роза. Внутри хрустит вафельная крошка с белым шоколадом. 105 г.",
+    "image": "images/menu/dessert-137.webp",
+    "image4k": "images/4k/dessert-137.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/mariya-antuanetta/pirozhnoe-serdcze-2/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/08/serdcze-.jpg"
   },
   {
-    "id": 39,
-    "name": "Корпусное манго",
-    "price": 450,
-    "image": "images/product-39.webp",
-    "description": "Мангово-маракуйевое конфи, шоколадный мусс и тонкая глазурь."
+    "id": 138,
+    "name": "Клубничный франжипан",
+    "category": "Мария-Антуанетта",
+    "price": 12900,
+    "description": "Под куполом из белого шоколада — ванильный бисквит, клубника, фисташки и ягодное желе с маком. 1 кг.",
+    "image": "images/menu/dessert-138.webp",
+    "image4k": "images/4k/dessert-138.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/torty/franzhipan-klubnichnyj/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/03/19499.jpg"
   },
   {
-    "id": 40,
-    "name": "Попкорн",
-    "price": 450,
-    "image": "images/product-40.webp",
-    "description": "Карамельный мусс с попкорном и хрустящей карамельной крошкой."
+    "id": 139,
+    "name": "Карамельный чизкейк",
+    "category": "Мария-Антуанетта",
+    "price": 1290,
+    "description": "Бисквит, сырный мусс и мягкая карамель в центре. 90 г.",
+    "image": "images/menu/dessert-139.webp",
+    "image4k": "images/4k/dessert-139.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/mariya-antuanetta/karamelnyj-chizkejk/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/10/19482.jpg"
   },
   {
-    "id": 41,
-    "name": "Корпусная фисташка",
-    "price": 450,
-    "image": "images/product-41.webp",
-    "description": "Фисташковый мусс, фисташковое пралине и шоколадная глазурь."
+    "id": 140,
+    "name": "Ягодный эклер",
+    "category": "Мария-Антуанетта",
+    "price": 650,
+    "description": "Крем-пломбир и малиновое конфи в эклере, украшенном помадкой и сахарным бутоном. 55 г.",
+    "image": "images/menu/dessert-140.webp",
+    "image4k": "images/4k/dessert-140.webp",
+    "sourceUrl": "https://sweetpushkin.ru/shop/mariya-antuanetta/yagodnyj-ekler/",
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/08/753a0743.jpg"
   }
 ]
