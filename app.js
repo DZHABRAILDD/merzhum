@@ -8,13 +8,11 @@ try{
  favorites=Array.isArray(savedFavorites)?savedFavorites:[];
  if(localStorage.getItem('merzhum-theme')==='dark')document.body.classList.add('dark');
 }catch{}
-const cats=['Все','Торты','Тарты','Десерты','Корпусные десерты','Подарочные боксы','Выпечка','Избранное'];
-const symbols=['grid-3x3-gap','cake2','cake2','egg-fried','hexagon-fill','box','basket-fill','heart'];
-const categoryFor=id=>[3,15,19,22,24,25,26].includes(id)?'Торты':[6,10,16,17,18,23].includes(id)?'Тарты':[4,7,11,14,20,21].includes(id)?'Подарочные боксы':[8,9,12,37,38,39,41].includes(id)?'Корпусные десерты':[29,30].includes(id)?'Выпечка':'Десерты';
-const cakeOrder=[22,15,26,25,24,3,19];
+const cats=['Все','Торты','Пирожные','Эклеры','Макарони','Выпечка','Мария-Антуанетта','Избранное'];
+const symbols=['grid-3x3-gap','cake2','cake2','egg-fried','hexagon-fill','basket-fill','box','heart'];
 const money=n=>new Intl.NumberFormat('ru-RU').format(n)+' ₽';
 const desc=p=>p.description||'Состав и наличие уточните при заказе.';
-const image=p=>'<img class="photo" src="'+p.image+'" alt="'+p.name.replaceAll('"','&quot;')+'" width="1254" height="1254" loading="lazy" decoding="async">';
+const image=p=>'<img class="photo" src="'+p.image+'" alt="'+p.name.replaceAll('"','&quot;')+'" width="720" height="720" loading="lazy" decoding="async">';
 const price=(p,quantity=1)=>'<span class="price '+(p.price===null?'unknown':'')+'">'+(p.price===null?'Цена по запросу':money(p.price*quantity))+'</span>';
 const qty=p=>cart[p.id]?'<div class="quantity"><button data-change="'+p.id+'" data-step="-1" aria-label="Уменьшить количество '+p.name+'">'+icon('dash')+'</button><span>'+cart[p.id]+'</span><button data-change="'+p.id+'" data-step="1" aria-label="Добавить ещё '+p.name+'">'+icon('plus')+'</button></div>':'';
 function save(key,value){try{localStorage.setItem(key,JSON.stringify(value))}catch{}}
@@ -22,7 +20,6 @@ function render(){
  const term=$('#search').value.toLowerCase().trim();
  let visible=products.filter(p=>(category==='Все'||p.category===category||(category==='Избранное'&&favorites.includes(p.id)))&&p.name.toLowerCase().includes(term));
  const sort=$('#sort').value;
- if(sort==='default')visible.sort((a,b)=>a.category==='Торты'&&b.category==='Торты'?cakeOrder.indexOf(a.id)-cakeOrder.indexOf(b.id):a.category.localeCompare(b.category,'ru')||a.name.localeCompare(b.name,'ru'));
  if(sort==='name')visible.sort((a,b)=>a.name.localeCompare(b.name,'ru'));
  if(sort==='new')visible.sort((a,b)=>b.id-a.id);
  if(sort==='asc'||sort==='desc')visible.sort((a,b)=>a.price===null?(b.price===null?0:1):b.price===null?-1:(a.price-b.price)*(sort==='asc'?1:-1));
@@ -97,17 +94,23 @@ compact.addEventListener('change',syncLayout);syncLayout();
 function show(html){closeDrawer(false);$('#modal-content').innerHTML=html;if(!$('#modal').open)$('#modal').showModal()}
 function detail(id){
  const p=products.find(p=>p.id===id);if(!p)return;
- show('<div class="product-detail">'+image(p)+'<div><span class="eyebrow">'+p.category+'</span><h1>'+p.name+'</h1><p>'+desc(p)+'</p>'+price(p)+'<button class="gold-button" data-change="'+p.id+'" data-step="1">Добавить в корзину '+icon('bag-plus')+'</button><small>Состав уточним перед заказом.</small></div></div>');
+ show(`<div class="product-detail">
+  <a href="${p.image4k}" target="_blank" rel="noopener" aria-label="Открыть фото в 4K">${image(p)}</a>
+  <div>
+   <span class="eyebrow">${p.category}</span><h1>${p.name}</h1><p>${desc(p)}</p>${price(p)}
+   <button class="gold-button" data-change="${p.id}" data-step="1">Добавить в корзину ${icon('bag-plus')}</button>
+   <small><a class="detail-link" href="${p.image4k}" target="_blank" rel="noopener">Открыть фото в 4K</a></small>
+  </div></div>`);
 }
 function localToday(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Moscow',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
 function checkout(){
  if(!products.some(p=>cart[p.id]>0))return;
- show('<form class="checkout" id="order-form"><h1>Оформление заявки</h1><label>Как к вам обращаться<input name="name" required autocomplete="given-name" maxlength="80"></label><label>Телефон<input name="phone" type="tel" required autocomplete="tel" maxlength="30" placeholder="+7 …"></label><label>Получение<select name="delivery" id="delivery"><option>Самовывоз</option><option>Доставка</option></select></label><label id="address-label" hidden>Адрес<input name="address" maxlength="250"></label><label>Желаемая дата<input name="date" type="date" required min="'+localToday()+'" value="'+localToday()+'"></label><label>Желаемое время<input name="time" type="time" required min="09:00" max="20:00" value="12:00"></label><label>Комментарий<textarea name="comment" rows="3" maxlength="1000" placeholder="Пожелания к заказу"></textarea></label><small>Откроется WhatsApp с составом заявки. Нажмите «Отправить» в WhatsApp — кондитерская подтвердит наличие, стоимость и время. Оплата на сайте не производится.</small><button class="gold-button" type="submit">Продолжить в WhatsApp '+icon('arrow-up-right')+'</button></form>');
+ show('<form class="checkout" id="order-form"><h1>Оформление заявки</h1><label>Как к вам обращаться<input name="name" required autocomplete="given-name" maxlength="80"></label><label>Телефон<input name="phone" type="tel" required autocomplete="tel" maxlength="30" placeholder="+7 …"></label><label>Получение<select name="delivery" id="delivery"><option>Самовывоз</option><option>Доставка</option></select></label><label id="address-label" hidden>Адрес<input name="address" maxlength="250"></label><label>Желаемая дата<input name="date" type="date" required min="'+localToday()+'" value="'+localToday()+'"></label><label>Желаемое время<input name="time" type="time" required min="09:00" max="20:00" value="12:00"></label><label>Комментарий<textarea name="comment" rows="3" maxlength="1000" placeholder="Пожелания к заказу"></textarea></label><small>Откроется переписка с Merzhum в Грозном. Можно уточнить, какие десерты из подборки «Листель» доступны и сколько будет стоить ваш заказ.</small><button class="gold-button" type="submit">Продолжить в WhatsApp '+icon('arrow-up-right')+'</button></form>');
 }
 const info={
- about:['О Merzhum','Кондитерская в Грозном. Торты, тарты, авторские корпусные десерты и подарочные наборы.'],
+ about:['О «Листель»','«Листель» — вымышленный кондитерский дом. В основе этой витрины — десерты, цены и фотографии из коллекции московской кондитерской «Кафе Пушкинъ». <a class="detail-link" href="https://sweetpushkin.ru/shop/" target="_blank" rel="noopener">Посмотреть оригинальное меню</a>.'],
  delivery:['Получение заказа','Вы можете выбрать самовывоз или запросить доставку. Возможность, время и стоимость доставки кондитерская подтвердит в WhatsApp перед заказом.'],
- contacts:['Контакты','Грозный, ул. Муслима Гайрбекова, 68к2.<br>Каждый день с 9:00 до 20:00.<br><a href="tel:+79281233434">+7 (928) 123-34-34</a><br><a href="https://wa.me/79281233434" target="_blank" rel="noopener">Написать в WhatsApp ↗</a>']
+ contacts:['Контакты Merzhum','Грозный, ул. Муслима Гайрбекова, 68к2.<br>Каждый день с 9:00 до 20:00.<br><a href="tel:+79281233434">+7 (928) 123-34-34</a><br><a href="https://wa.me/79281233434" target="_blank" rel="noopener">Написать в WhatsApp ↗</a>']
 };
 document.addEventListener('click',e=>{
  const cat=e.target.closest('[data-category]'),add=e.target.closest('[data-change]'),fav=e.target.closest('[data-fav]'),product=e.target.closest('[data-product]'),i=e.target.closest('[data-info]');
@@ -116,7 +119,7 @@ document.addEventListener('click',e=>{
   const id=+add.dataset.change;cart[id]=Math.min(99,Math.max(0,(cart[id]||0)+Number(add.dataset.step)));
   if(!cart[id])delete cart[id];save('merzhum-cart',cart);
   const slot=document.querySelector('[data-quantity="'+id+'"]');
-  if(slot){const cardPrice=slot.closest('.card-bottom').querySelector('.price');if(cardPrice&&products.find(p=>p.id===id))cardPrice.outerHTML=price(products.find(p=>p.id===id),cart[id]||1);const counter=slot.querySelector('.quantity span');if(counter&&cart[id])counter.textContent=cart[id];else{const focused=slot.contains(document.activeElement);slot.innerHTML=qty(products.find(p=>p.id===id));if(focused)slot.querySelector('[data-step="1"]').focus({preventScroll:true})}}
+  if(slot){const cardPrice=slot.closest('.card-bottom').querySelector('.price');if(cardPrice&&products.find(p=>p.id===id))cardPrice.outerHTML=price(products.find(p=>p.id===id),cart[id]||1);const counter=slot.querySelector('.quantity span');if(counter&&cart[id])counter.textContent=cart[id];else{const focused=slot.contains(document.activeElement);slot.innerHTML=qty(products.find(p=>p.id===id));if(focused)(slot.querySelector('[data-step="1"]')||slot.closest('.card').querySelector('[data-product]')).focus({preventScroll:true})}}
   renderCart();
   if(add.dataset.step==='1'&&add.closest('.product-detail'))$('#modal').close();
   if(add.dataset.step==='1'){const t=$('#toast');t.textContent='Добавлено в корзину';t.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>t.classList.remove('show'),1500)}
@@ -152,13 +155,12 @@ document.addEventListener('submit',e=>{
  if(d.get('date')<localToday()){e.target.elements.date.setCustomValidity('Выберите сегодняшнюю или будущую дату');e.target.elements.date.reportValidity();return}
  e.target.elements.date.setCustomValidity('');
  const lines=products.filter(p=>cart[p.id]>0).map(p=>p.name+' × '+cart[p.id]+' — '+(p.price===null?'цена по запросу':money(p.price*cart[p.id])));
- const text='Здравствуйте! Хочу уточнить заказ Merzhum:\n'+lines.join('\n')+'\n\nИмя: '+d.get('name')+'\nТелефон: '+d.get('phone')+'\nПолучение: '+d.get('delivery')+'\n'+(d.get('delivery')==='Доставка'?'Адрес: '+d.get('address')+'\n':'')+'Дата: '+d.get('date')+'\nВремя: '+d.get('time')+'\nКомментарий: '+(d.get('comment')||'—');
+ const text='Здравствуйте! Подскажите, можно ли приготовить десерты из подборки «Листель» и сколько будет стоить заказ?\n'+lines.join('\n')+'\n\nИмя: '+d.get('name')+'\nТелефон: '+d.get('phone')+'\nПолучение: '+d.get('delivery')+'\n'+(d.get('delivery')==='Доставка'?'Адрес: '+d.get('address')+'\n':'')+'Дата: '+d.get('date')+'\nВремя: '+d.get('time')+'\nКомментарий: '+(d.get('comment')||'—');
  window.open('https://wa.me/79281233434?text='+encodeURIComponent(text),'_blank','noopener');
 });
-fetch('products.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{
- products=data.map(p=>({...p,category:categoryFor(p.id)}));
- const names={1:'Ягодный ирис',4:'Подарочный бокс · классика',7:'Подарочный бокс · шоколад',9:'Корпусной десерт на выбор',14:'Подарочный бокс · тарты',15:'Торт «Ягодный ирис»',20:'Набор корпусных десертов',21:'Подарочный бокс · фрукты',22:'Торт «Французский тирамису»'};
- products.forEach(p=>{if(names[p.id])p.name=names[p.id]});
+fetch('products.json?v=listel-1').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{
+ products=data;
+ favorites=favorites.filter(id=>products.some(p=>p.id===id));
  cart=Object.fromEntries(Object.entries(cart).filter(([id,n])=>products.some(p=>p.id===+id)&&Number.isInteger(n)&&n>0&&n<=99));
  render();
 }).catch(()=>{$('#products').innerHTML='<p class="no-results">Не удалось загрузить каталог. Обновите страницу или напишите нам в WhatsApp.</p>'});
