@@ -8,7 +8,9 @@
     "image": "images/menu/dessert-101.webp",
     "image4k": "images/4k/dessert-101.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/mindalnoe-moloko/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/24.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/24.jpg",
+    "ingredients": "Бисквит, миндаль, крем из миндального молока, вишня-конфит, стебли берграсса, свежая клубника, ежевика, голубика.",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/torty/tort-mindalnoe-moloko"
   },
   {
     "id": 102,
@@ -19,7 +21,10 @@
     "image": "images/menu/dessert-102.webp",
     "image4k": "images/4k/dessert-102.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/tortec-prazhskoj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/praga-1.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/praga-1.jpg",
+    "ingredients": "Шоколадный бисквит, яблочный ликёр, мусс из тёмного шоколада, яблочно-айвовый конфитюр, шоколадная глазурь и крем для декора.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/torty/tortec-prazhskoj/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 103,
@@ -30,7 +35,10 @@
     "image": "images/menu/dessert-103.webp",
     "image4k": "images/4k/dessert-103.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/medovichek-2-kg/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/025a7085.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/025a7085.jpg",
+    "ingredients": "Коржи с гречишным мёдом, сметанный крем, сгущённое молоко, корона из тёмного шоколада.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/torty/medovichek-2-kg/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 104,
@@ -41,18 +49,23 @@
     "image": "images/menu/dessert-104.webp",
     "image4k": "images/4k/dessert-104.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/tort-kievskij/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2021/12/15.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2021/12/15.jpg",
+    "ingredients": "Коржи из орехового безе, шоколадный масляный крем, ваниль.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/torty/tort-kievskij/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 105,
     "name": "Яблочный блюз",
     "category": "Торты",
     "price": 4650,
-    "description": "Под миндальной песочной решёткой — мелко нарезанные яблоки с корицей. 880 г.",
+    "description": "Миндально-песочный пирог с мелко нарезанными яблоками и корицей. 900 г.",
     "image": "images/menu/dessert-105.webp",
     "image4k": "images/4k/dessert-105.webp",
-    "sourceUrl": "https://sweetpushkin.ru/shop/torty/yablochnyj-blyuz/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/yablochnyj-blyuz.jpg"
+    "sourceUrl": "https://dellos.smartomato.ru/menu/torty/tort-pirog-yablochnyy-blyuz",
+    "sourceImage": "https://cdn.smt.bz/uploads/media/photo/8509402/%D0%A2%D0%BE%D1%80%D1%82__%D0%AF%D0%B1%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D1%8E%D0%B7_.jpg",
+    "ingredients": "Песочное тесто, миндаль, яблоки, корица.",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/torty/tort-pirog-yablochnyy-blyuz"
   },
   {
     "id": 106,
@@ -63,7 +76,9 @@
     "image": "images/menu/dessert-106.webp",
     "image4k": "images/4k/dessert-106.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/tort-leningradskij/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/10/unnamed-2.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/10/unnamed-2.jpg",
+    "ingredients": "Песочные коржи, шоколадный крем, коньячный сироп, шоколадная помадка.",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/torty/tort-leningradskiy"
   },
   {
     "id": 107,
@@ -74,7 +89,10 @@
     "image": "images/menu/dessert-107.webp",
     "image4k": "images/4k/dessert-107.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/pryanevik/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/07/v-banke.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/07/v-banke.jpg",
+    "ingredients": "Медовые коржи, корица, кориандр, гвоздика, мускатный орех, сметанный крем с ванилью и малиновое конфи.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/torty/pryanevik/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 108,
@@ -85,7 +103,9 @@
     "image": "images/menu/dessert-108.webp",
     "image4k": "images/4k/dessert-108.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/taten-vanilnyj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/taten-vanilnyj.jpg"
+    "sourceImage": "https://cdn.smt.bz/uploads/media/photo/8524031/0R0A5154.jpg",
+    "ingredients": "Слоёное тесто, ванильный крем, яблоки, корица.",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/torty/taten-yabloko"
   },
   {
     "id": 109,
@@ -96,7 +116,9 @@
     "image": "images/menu/dessert-109.webp",
     "image4k": "images/4k/dessert-109.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/tort-ptichka/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2024/11/img_9783.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2024/11/img_9783.jpg",
+    "ingredients": "Молочное суфле, ванильный бисквит, молочный шоколад.",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/torty/tort-ptichka-v-banke"
   },
   {
     "id": 110,
@@ -107,18 +129,24 @@
     "image": "images/menu/dessert-110.webp",
     "image4k": "images/4k/dessert-110.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/desert-shokoladno-vishnevyj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/1.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/1.jpg",
+    "ingredients": "Песочное тесто, шоколадный крем, ганаш из тёмного шоколада, вишня в роме и хрустящий слой пралине.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/deserty/desert-shokoladno-vishnevyj/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 111,
     "name": "Земляничная матча",
     "category": "Пирожные",
     "price": 1350,
-    "description": "Бисквит матча с земляничной пропиткой, миндальная хрустина и крем-пломбир с ягодным конфи. 200 г.",
+    "description": "Бисквит матча с земляничной пропиткой, миндальная хрустина и крем-пломбир с ягодным конфи.",
     "image": "images/menu/dessert-111.webp",
     "image4k": "images/4k/dessert-111.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/desert-zemlyanichnaya-matcha/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/3.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/3.jpg",
+    "ingredients": "Бисквит с чаем матча, земляничный сироп, хрустящий миндальный слой, крем-пломбир, крем с матчей и земляничное конфи.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/deserty/desert-zemlyanichnaya-matcha/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 112,
@@ -129,7 +157,10 @@
     "image": "images/menu/dessert-112.webp",
     "image4k": "images/4k/dessert-112.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/desert-s-buzinoj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/04/900h900_3.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/04/900h900_3.jpg",
+    "ingredients": "Лимонный бисквит, фисташковый хрустящий слой, фисташково-шоколадный крем, крем-пломбир, бузина, клубника и земляника.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/deserty/desert-s-buzinoj/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 113,
@@ -140,7 +171,9 @@
     "image": "images/menu/dessert-113.webp",
     "image4k": "images/4k/dessert-113.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/esterhazi/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/07/3.jpg"
+    "sourceImage": "https://cdn.smt.bz/uploads/media/photo/8524035/0R0A5181.jpg",
+    "ingredients": "Миндальная мука, яйца, пшеничная мука, молоко, сливки, ванильный сахар, миндальная паста, сливочное масло, кукурузный крахмал, фундучная паста, белый шоколад, грецкий орех, ванильный экстракт, тёмный шоколад",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/531443"
   },
   {
     "id": 114,
@@ -151,7 +184,9 @@
     "image": "images/menu/dessert-114.webp",
     "image4k": "images/4k/dessert-114.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/milfej/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/milfej.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/milfej.jpg",
+    "ingredients": "Слоёное тесто, cливки, мука, масло сливочное, молоко, сахар-песок, яйцо, сахарная пудра, миндаль листья, крем заварной пудры, соль, сироп глюкозы, шоколад темный, ваниль, пектин желтый, ваниль в стручках молотая",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/401975"
   },
   {
     "id": 115,
@@ -162,7 +197,9 @@
     "image": "images/menu/dessert-115.webp",
     "image4k": "images/4k/dessert-115.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/nezhnoe-sufle/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ptiche-moloko-1.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ptiche-moloko-1.jpg",
+    "ingredients": "Пшеничная мука, агар-агар, ванильный сахар, яйца, варёное сгущённое молоко, сливочное масло, тёмный шоколад",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/ptichka"
   },
   {
     "id": 116,
@@ -173,7 +210,9 @@
     "image": "images/menu/dessert-116.webp",
     "image4k": "images/4k/dessert-116.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/kievskij/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/03/17.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/03/17.jpg",
+    "ingredients": "Фундук, арахис, какао, яйца, сахарная пудра, молоко, сливочное масло, сахар, кукурузный крахмал, коньяк, белое вино",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/tort-kievskiy"
   },
   {
     "id": 117,
@@ -184,7 +223,9 @@
     "image": "images/menu/dessert-117.webp",
     "image4k": "images/4k/dessert-117.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/medovik/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/900h900_5.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/900h900_5.jpg",
+    "ingredients": "Пшеничная мука, гречишный мёд, яйца, сметана, ванильный сахар, сливочное масло, ванилин, варёное сгущённое молоко, сливки, сода",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/408240"
   },
   {
     "id": 118,
@@ -195,7 +236,10 @@
     "image": "images/menu/dessert-118.webp",
     "image4k": "images/4k/dessert-118.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/praga/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/praga.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/praga.jpg",
+    "ingredients": "Шоколадный бисквит, яблочный ликёр, мусс из тёмного шоколада, конфитюр из яблок и айвы, шоколадная глазурь и крем.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/deserty/praga/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 119,
@@ -206,7 +250,10 @@
     "image": "images/menu/dessert-119.webp",
     "image4k": "images/4k/dessert-119.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/deserty/tort-leningradskij-2/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/02/img_5973_afterlight-1.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/02/img_5973_afterlight-1.jpg",
+    "ingredients": "Песочные коржи, коньячный сироп, шоколадный крем, шоколадная помадка.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/deserty/tort-leningradskij-2/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 120,
@@ -217,7 +264,9 @@
     "image": "images/menu/dessert-120.webp",
     "image4k": "images/4k/dessert-120.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/eklery/ekler-vanil/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ekler-vanil.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ekler-vanil.jpg",
+    "ingredients": "Заварное тесто с ванильным муссом Патисьер и ванильным кремом на основе ванили Бурбон, украшен ванильной помадкой",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/ekler-vanil"
   },
   {
     "id": 121,
@@ -228,7 +277,9 @@
     "image": "images/menu/dessert-121.webp",
     "image4k": "images/4k/dessert-121.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/eklery/ekler-karamelnyj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ekler-karamel.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/ekler-karamel.jpg",
+    "ingredients": "Пшеничная мука, сливки, сгущённое молоко, яйца, сливочное масло, молоко, сахар, соль, желатин, белый шоколад",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/401970"
   },
   {
     "id": 122,
@@ -239,7 +290,10 @@
     "image": "images/menu/dessert-122.webp",
     "image4k": "images/4k/dessert-122.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/eklery/ekler-s-zavarnym-kremom/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/2.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2026/08/2.jpg",
+    "ingredients": "Заварное тесто, сливочный заварной крем.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/eklery/ekler-s-zavarnym-kremom/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 123,
@@ -250,7 +304,9 @@
     "image": "images/menu/dessert-123.webp",
     "image4k": "images/4k/dessert-123.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/vishnya-fistashka-2/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/malina-fistashka.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/malina-fistashka.jpg",
+    "ingredients": "Мука миндальная бланшированная, яйцо куриное, сахарная пудра, сливки, сахар-песок, сироп глюкозы, вода, паста фисташковая, смесь для окрашивания пищевых продуктов, вишня, масло сливочное, ароматизатор жидкий, какао масло, соль",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/makaroni-vishnya-fistashka"
   },
   {
     "id": 124,
@@ -261,7 +317,9 @@
     "image": "images/menu/dessert-124.webp",
     "image4k": "images/4k/dessert-124.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/limon-karamel/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/limon-karamel.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/limon-karamel.jpg",
+    "ingredients": "Сливки, яйцо куриное, сахар-песок, мука миндальная бланшированная, сахарная пудра, сироп глюкозы, вода, масло сливочное, лимоны, смесь для окрашивания пищевых продуктов, какао масло, соль, ликер куантро, кориандр молотый, ваниль в стручках молотая, бадьян, мускатный орех молотый, имбирь молотый, пектин желтый",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/makaroni-limon-karamel"
   },
   {
     "id": 125,
@@ -272,7 +330,10 @@
     "image": "images/menu/dessert-125.webp",
     "image4k": "images/4k/dessert-125.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/makaroni-zelenyj-chaj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/10/zelenyj-chaj.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/10/zelenyj-chaj.jpg",
+    "ingredients": "Миндальная мука, взбитые яичные белки, сахар, шоколадно-чайная начинка с зелёным чаем.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/makaroni/makaroni-zelenyj-chaj/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 126,
@@ -283,7 +344,10 @@
     "image": "images/menu/dessert-126.webp",
     "image4k": "images/4k/dessert-126.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/makaroni-mak/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/10/mak.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/10/mak.jpg",
+    "ingredients": "Миндальная мука, взбитые яичные белки, сахар, ванильный крем с маком.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/makaroni/makaroni-mak/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 127,
@@ -294,7 +358,10 @@
     "image": "images/menu/dessert-127.webp",
     "image4k": "images/4k/dessert-127.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/makaroni-chyornaya-smorodina/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2021/12/raspberry-black.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2021/12/raspberry-black.jpg",
+    "ingredients": "Миндальная мука, взбитые яичные белки, сахар, крем с чёрной смородиной.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/makaroni/makaroni-chyornaya-smorodina/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 128,
@@ -305,7 +372,10 @@
     "image": "images/menu/dessert-128.webp",
     "image4k": "images/4k/dessert-128.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/malinovyj-mors/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/mors.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/mors.jpg",
+    "ingredients": "Миндальная мука, взбитые яичные белки, сахар, ягодный крем из малины и клюквы.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/makaroni/malinovyj-mors/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 129,
@@ -316,7 +386,10 @@
     "image": "images/menu/dessert-129.webp",
     "image4k": "images/4k/dessert-129.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/makaroni/medovik-sgushhenka/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/medovik-sgushhenka.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/04/medovik-sgushhenka.jpg",
+    "ingredients": "Миндальная мука, взбитые яичные белки, сахар, мёд и варёное сгущённое молоко.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/makaroni/medovik-sgushhenka/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 130,
@@ -327,7 +400,9 @@
     "image": "images/menu/dessert-130.webp",
     "image4k": "images/4k/dessert-130.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/limonnyj-pirog/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/07/a40.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/07/a40.jpg",
+    "ingredients": "Песочное тесто на сливочном масле с лимонным конфитюром с добавлением цедры лимона",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/torty/tort-limonnik"
   },
   {
     "id": 131,
@@ -338,7 +413,9 @@
     "image": "images/menu/dessert-131.webp",
     "image4k": "images/4k/dessert-131.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/vishnevyj-pirog/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/09/a41i6993_ret-1.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2022/09/a41i6993_ret-1.jpg",
+    "ingredients": "Песочное тесто, вишнёвое варенье, миндальный крем, свежая вишня.",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/torty/vishnevyy-pirog"
   },
   {
     "id": 132,
@@ -349,7 +426,9 @@
     "image": "images/menu/dessert-132.webp",
     "image4k": "images/4k/dessert-132.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/kruassan-vanilnoj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/vanil.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/vanil.jpg",
+    "ingredients": "Слоеное тесто, мука, масло, сахар-песок, яйцо куриное, дрожжи, соль, молоко, тримолин, сироп глюкозы, ваниль, пектин желтый",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/kruassan-s-vanilyu"
   },
   {
     "id": 133,
@@ -360,7 +439,9 @@
     "image": "images/menu/dessert-133.webp",
     "image4k": "images/4k/dessert-133.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/kruassan-s-mindalem/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/mindal.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/mindal.jpg",
+    "ingredients": "Слоёное тесто, мука, марципан, сахар-песок, яйцо, ароматизатор миндальный, дрожжи, масло сливочное, миндальные листья, молоко, соль, пекан, тримолин, аромат апельсина, сироп глюкозы, какао масло, ваниль, пектин желтый",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/kruassan-s-mindalem"
   },
   {
     "id": 134,
@@ -371,7 +452,9 @@
     "image": "images/menu/dessert-134.webp",
     "image4k": "images/4k/dessert-134.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/kruassan-shokolad/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2024/01/pushkincafe-19.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2024/01/pushkincafe-19.jpg",
+    "ingredients": "Слоеное тесто, мука, масло сливочное, сахар-песок, молоко, яйцо, шоколад темный, сливки, какао паста, дрожжи, соль, крем заварной пудры, молоко, тримолин, сироп глюкозы, ваниль, пектин желтый",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/kruassan-s-shokoladom"
   },
   {
     "id": 135,
@@ -382,7 +465,9 @@
     "image": "images/menu/dessert-135.webp",
     "image4k": "images/4k/dessert-135.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/vypechka/pryanik-so-sgushhenkoj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/pryanik.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2017/06/pryanik.jpg",
+    "ingredients": "Пшеничная мука, сливочное масло, яйца, сахар, мёд, варёное сгущённое молоко, смесь пряностей, сода, лимон",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/pryanik-so-sgushchenkoy"
   },
   {
     "id": 136,
@@ -393,7 +478,10 @@
     "image": "images/menu/dessert-136.webp",
     "image4k": "images/4k/dessert-136.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/mariya-antuanetta/emerald/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/09/emerald.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/09/emerald.jpg",
+    "ingredients": "Миндально-кокосовый бисквит, малиновый мусс, фисташки в карамели, мусс-пломбир и тёмный шоколад.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/mariya-antuanetta/emerald/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 137,
@@ -404,18 +492,23 @@
     "image": "images/menu/dessert-137.webp",
     "image4k": "images/4k/dessert-137.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/mariya-antuanetta/pirozhnoe-serdcze-2/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/08/serdcze-.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/08/serdcze-.jpg",
+    "ingredients": "Лимонный бисквит, маскарпоне, белый шоколад, вафельная крошка, сливочный мусс, клюква, клубника, земляника, шоколадная глазурь и чайная роза.",
+    "ingredientsSource": "https://sweetpushkin.ru/shop/mariya-antuanetta/pirozhnoe-serdcze-2/",
+    "ingredientsFromDescription": true
   },
   {
     "id": 138,
     "name": "Клубничный франжипан",
     "category": "Мария-Антуанетта",
     "price": 12900,
-    "description": "Под куполом из белого шоколада — ванильный бисквит, клубника, фисташки и ягодное желе с маком. 1 кг.",
+    "description": "Под куполом из белого шоколада — ванильный бисквит, клубника, фисташки и ягодное желе с маком.",
     "image": "images/menu/dessert-138.webp",
     "image4k": "images/4k/dessert-138.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/torty/franzhipan-klubnichnyj/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/03/19499.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2019/03/19499.jpg",
+    "ingredients": "Ванильный бисквит, ванильный крем, карамелизированные фисташки, клубничное желе, мак, белый бельгийский шоколад, свежая клубника",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/torty/tort-klubnichnyy"
   },
   {
     "id": 139,
@@ -426,7 +519,9 @@
     "image": "images/menu/dessert-139.webp",
     "image4k": "images/4k/dessert-139.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/mariya-antuanetta/karamelnyj-chizkejk/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/10/19482.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/10/19482.jpg",
+    "ingredients": "Паста принцесса (сахар, глюкозный сироп, какао-масло, рисовый крахмал, влагоудерживающий агент глицерин , ароматизаторы, загуститель ксантиновая камедь, сливки, сахар-песок, яйцо, крем на растительных маслах, вода питьевая, жир растительный пальмоядровый, сахар, белок молочный, соль, ароматизатор, краситель-бета-каротин, какао масло, вода, шоколад белый какао, сахар, какао –масло, эмульгатор соевый лецитин, натуральный экстракт ванили, сироп глюкозы, молоко цельное сгущённое с сахаром, мука пшеничная, сок лимона, масло сливочное, орех миндаля, сыр маскарпоне, сливки, масло из сливок коровьего молока, восстановленное обезжиренное молоко из сухого молока, концентрат молочного белка),цельное молоко, регулятор кислотности: лимонная кислота),краситель пищевой диоксид, натуральная пищевая вкус ароматическая добавка Ваниль, молоко, ликер куантро",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/karamelnyy-chizkeyk"
   },
   {
     "id": 140,
@@ -437,6 +532,8 @@
     "image": "images/menu/dessert-140.webp",
     "image4k": "images/4k/dessert-140.webp",
     "sourceUrl": "https://sweetpushkin.ru/shop/mariya-antuanetta/yagodnyj-ekler/",
-    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/08/753a0743.jpg"
+    "sourceImage": "https://sweetpushkin.ru/wp-content/uploads/2025/08/753a0743.jpg",
+    "ingredients": "Сливки, ягода земляники, помадка сахарная белая (сахар, сироп глюкозы, вода) шоколад белый, яйцо, крем на растительных маслах ( сахар, белок молочный, эмульгаторы, соль, ароматизатор, краситель-бета-каротин), сахар-песок, молоко, белый шоколад с карамелью ( масло какао, сахар, карамелизованный, молочная сыворотка, сахар, натуральный ароматизатор ваниль, молоко, карамелизованный сахар, эмульгатор соевый лецитин ,соль ,натуральный ароматизатор: ваниль), масло сливочное, мука пшеничная, сироп, какао-масло, рисовый крахмал, взрывная карамель, сахар тростниковый коричневый (песок), ликер десертный малибу со вкусом кокоса, какао масло , орех миндаля листья ,сахарные бусинки, сироп глюкозы, загуститель желатин пищевой, соль пищевая, сахар ванильный, ванилин",
+    "ingredientsSource": "https://dellos.smartomato.ru/menu/56493/yagodnyy-ekler"
   }
 ]

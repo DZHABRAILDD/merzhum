@@ -12,7 +12,8 @@ const cats=['Все','Торты','Пирожные','Эклеры','Макар�
 const symbols=['grid-3x3-gap','cake2','cake2','egg-fried','hexagon-fill','basket-fill','box','heart'];
 const money=n=>new Intl.NumberFormat('ru-RU').format(n)+' ₽';
 const desc=p=>p.description||'Состав и наличие уточните при заказе.';
-const image=p=>'<img class="photo" src="'+p.image+'" alt="'+p.name.replaceAll('"','&quot;')+'" width="720" height="720" loading="lazy" decoding="async">';
+const menuPhoto = path => path + '?v=listel-2';
+const image=p=>'<img class="photo" src="'+menuPhoto(p.image)+'" alt="'+p.name.replaceAll('"','&quot;')+'" width="720" height="720" loading="lazy" decoding="async">';
 const price=(p,quantity=1)=>'<span class="price '+(p.price===null?'unknown':'')+'">'+(p.price===null?'Цена по запросу':money(p.price*quantity))+'</span>';
 const qty=p=>cart[p.id]?'<div class="quantity"><button data-change="'+p.id+'" data-step="-1" aria-label="Уменьшить количество '+p.name+'">'+icon('dash')+'</button><span>'+cart[p.id]+'</span><button data-change="'+p.id+'" data-step="1" aria-label="Добавить ещё '+p.name+'">'+icon('plus')+'</button></div>':'';
 function save(key,value){try{localStorage.setItem(key,JSON.stringify(value))}catch{}}
@@ -95,12 +96,19 @@ function show(html){closeDrawer(false);$('#modal-content').innerHTML=html;if(!$(
 function detail(id){
  const p=products.find(p=>p.id===id);if(!p)return;
  show(`<div class="product-detail">
-  <a href="${p.image4k}" target="_blank" rel="noopener" aria-label="Открыть фото в 4K">${image(p)}</a>
+  <a href="${menuPhoto(p.image4k)}" target="_blank" rel="noopener" aria-label="Открыть фото в 4K">${image(p)}</a>
   <div>
-   <span class="eyebrow">${p.category}</span><h1>${p.name}</h1><p>${desc(p)}</p>${price(p)}
+   <span class="eyebrow">${p.category}</span><h1>${p.name}</h1><p>${desc(p)}</p>
+   <section class="composition"><h2>Состав</h2><p class="ingredient-list"></p><a class="ingredient-source" target="_blank" rel="noopener">Данные кондитерской</a></section>
+   ${price(p)}
    <button class="gold-button" data-change="${p.id}" data-step="1">Добавить в корзину ${icon('bag-plus')}</button>
-   <small><a class="detail-link" href="${p.image4k}" target="_blank" rel="noopener">Открыть фото в 4K</a></small>
+   <small><a class="detail-link" href="${menuPhoto(p.image4k)}" target="_blank" rel="noopener">Открыть фото в 4K</a></small>
   </div></div>`);
+ const label = p.ingredientsFromDescription
+  ? p.ingredients + " Полный перечень ингредиентов в источнике не указан."
+  : p.ingredients;
+ $('.ingredient-list').textContent = label;
+ $('.ingredient-source').href = p.ingredientsSource || p.sourceUrl;
 }
 function localToday(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Moscow',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
 function checkout(){
@@ -158,7 +166,7 @@ document.addEventListener('submit',e=>{
  const text='Здравствуйте! Подскажите, можно ли приготовить десерты из подборки «Листель» и сколько будет стоить заказ?\n'+lines.join('\n')+'\n\nИмя: '+d.get('name')+'\nТелефон: '+d.get('phone')+'\nПолучение: '+d.get('delivery')+'\n'+(d.get('delivery')==='Доставка'?'Адрес: '+d.get('address')+'\n':'')+'Дата: '+d.get('date')+'\nВремя: '+d.get('time')+'\nКомментарий: '+(d.get('comment')||'—');
  window.open('https://wa.me/79281233434?text='+encodeURIComponent(text),'_blank','noopener');
 });
-fetch('products.json?v=listel-1').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{
+fetch('products.json?v=listel-2').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{
  products=data;
  favorites=favorites.filter(id=>products.some(p=>p.id===id));
  cart=Object.fromEntries(Object.entries(cart).filter(([id,n])=>products.some(p=>p.id===+id)&&Number.isInteger(n)&&n>0&&n<=99));
