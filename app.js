@@ -96,19 +96,17 @@ function show(html){closeDrawer(false);$('#modal-content').innerHTML=html;if(!$(
 function detail(id){
  const p=products.find(p=>p.id===id);if(!p)return;
  show(`<div class="product-detail">
-  <a href="${menuPhoto(p.image4k)}" target="_blank" rel="noopener" aria-label="Открыть фото в 4K">${image(p)}</a>
+  ${image(p)}
   <div>
    <span class="eyebrow">${p.category}</span><h1>${p.name}</h1><p>${desc(p)}</p>
-   <section class="composition"><h2>Состав</h2><p class="ingredient-list"></p><a class="ingredient-source" target="_blank" rel="noopener">Данные кондитерской</a></section>
+   <section class="composition"><h2>Состав</h2><p class="ingredient-list"></p></section>
    ${price(p)}
    <button class="gold-button" data-change="${p.id}" data-step="1">Добавить в корзину ${icon('bag-plus')}</button>
-   <small><a class="detail-link" href="${menuPhoto(p.image4k)}" target="_blank" rel="noopener">Открыть фото в 4K</a></small>
   </div></div>`);
  const label = p.ingredientsFromDescription
   ? p.ingredients + " Полный перечень ингредиентов в источнике не указан."
   : p.ingredients;
  $('.ingredient-list').textContent = label;
- $('.ingredient-source').href = p.ingredientsSource || p.sourceUrl;
 }
 function localToday(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Moscow',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
 function checkout(){
